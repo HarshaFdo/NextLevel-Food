@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-export default function Error({ error }) {
+export default function Error() {
   return (
     <main className="error">
-      <h1>Meal not found</h1>
-      <p>Unfortunately, we could not find the requested page or meal data.</p>
+      <h1>An error occurred!</h1>
+      <p>Failed to fetch meal data. Please try again later.</p>
     </main>
   );
 }
